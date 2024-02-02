@@ -2,7 +2,74 @@ body {
   font-family: "Dosis", sans-serif;
   font-weight: 500;
 }
+body section {
+  padding: 50px 0;
+}
 
 #blue .box {
-  color: red;
+  position: relative;
+}
+#blue .box .minibox {
+  width: 100px;
+  height: 100px;
+  background-color: #1975e5;
+  color: white;
+  margin: 10px 0;
+  padding: 10px;
+}
+#blue .box .box3 {
+  position: absolute;
+  left: 130px;
+}
+
+#green .box {
+  position: relative;
+}
+#green .box .minibox {
+  height: 100px;
+  width: 100px;
+  background-color: #53a875;
+  color: white;
+  margin: 10px 0;
+  padding: 10px;
+}
+#green .box .box1 {
+  position: absolute;
+  left: 130px;
+}
+
+#pink .box {
+  position: relative;
+}
+#pink .box .minibox {
+  width: 100px;
+  height: 100px;
+  background-color: #e093cf;
+  color: white;
+  margin: 10px 0;
+  padding: 10px;
+}
+#pink .box .box3 {
+  position: absolute;
+  left: 200px;
+  bottom: 0;
+}
+
+#lorem .box {
+  position: relative;
+}
+#lorem .box .textbox {
+  width: 550px;
+}
+#lorem .box .minibox {
+  width: 100px;
+  height: 100px;
+  background-color: #e093cf;
+  color: white;
+  margin: 10px 0;
+  padding: 10px;
+}
+#lorem .box .box1 {
+  position: absolute;
+  right: 0;
 }/*# sourceMappingURL=style.css.map */
